@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Javascript</title>
+</head>
+
+<body>
+
+    <h1>Attribute Javascript</h1>
+
+    <img id="logo" src="https://www.programmerzamannow.com/img/pzn.png" alt="logo">
+
+    <script>
+        const logo = document.getElementById('logo');
+
+        // const src = logo.getAttributeNode('src');
+        const src = logo.getAttribute('src');
+        console.log(src);
+
+        // console.log(src.name);
+        // console.log(src.value);
+    </script>
+</body>
+
+</html>
